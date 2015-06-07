@@ -34,7 +34,7 @@
   <string name="wallet_options_safety_menu">안전 보관</string>
   <string name="wallet_options_safety">안전 이슈 참조</string>
   <string name="wallet_options_donate">팁 / 기부</string>
-  <string name="wallet_donate_address_label">Bitcoin Wallet 앱의 기부 주소</string>
+  <string name="wallet_donate_address_label">Potcoin Wallet 앱의 기부 주소</string>
   <string name="wallet_low_storage_dialog_title">저장장치 용량 부족</string>
   <string name="wallet_low_storage_dialog_msg">비트코인 지갑은 거래 기록과 블록을 기억하기 위해 저장 장치의 공간을 사용합니다. 저장 공간이 부족할 경우 앱 작동이 중단될 수 있으며, 비트코인 보관과 거래에 문제가 있을 수 있습니다.\n\n불필요한 앱 정리를 위해 어플리케이션 매니저를 여시겠습니까?</string>
   <string name="wallet_low_storage_dialog_button_apps">앱 정리하기</string>
@@ -163,7 +163,7 @@
   <string name="scan_camera_problem_dialog_message">카메라 기능에 문제가 있습니다. 이 문제는 장치 기기의 재시작으로 해결될 수도 있습니다.</string>
   <string name="input_parser_io_error">데이터를 읽을 수 없습니다. :\n%s</string>
   <string name="input_parser_cannot_classify">입력값 파싱 중 에러가 발생했습니다. : %s</string>
-  <string name="input_parser_invalid_bitcoin_uri">유효하지 않은 비트코인 URI입니다. :\n%s</string>
+  <string name="input_parser_invalid_potcoin_uri">유효하지 않은 비트코인 URI입니다. :\n%s</string>
   <string name="input_parser_invalid_address">유효하지 않은 비트코인 주소입니다!\n(비트코인 네트워크와 테스트넷 주소의 뒤섞임이 원인일 수 있습니다)</string>
   <string name="input_parser_unverifyable_paymentrequest">결제 요청을 검증할 수 없습니다. :\n%s</string>
   <string name="input_parser_invalid_paymentrequest">유효하지 않은 결제 요청입니다. :\n%s</string>
@@ -204,7 +204,7 @@
   <string name="about_copyright_title">Copyright</string>
   <string name="about_license_title">라이센스</string>
   <string name="about_source_title">소스 코드</string>
-  <string name="about_credits_bitcoinj_title">bitcoinj %s 버전 사용</string>
+  <string name="about_credits_potcoinj_title">potcoinj %s 버전 사용</string>
   <string name="about_credits_zxing_title">\'zxing\'의 QR코드 소스 사용 중</string>
   <string name="about_credits_icon_title">\'bitboy\'의 아이콘 사용 중</string>
   <string name="about_community_googleplus_title">Google+의 앱 커뮤니티</string>

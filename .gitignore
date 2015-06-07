@@ -6,3 +6,5 @@ local.properties
 bin/
 gen/
 target/
+cardview/
+recyclerview/

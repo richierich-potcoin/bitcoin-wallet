@@ -59,10 +59,10 @@ public final class Constants
 		public static final File EXTERNAL_WALLET_BACKUP_DIR = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
 
 		/** Filename of the manual key backup (old format, can only be read). */
-		public static final String EXTERNAL_WALLET_KEY_BACKUP = "bitcoin-wallet-keys" + FILENAME_NETWORK_SUFFIX;
+		public static final String EXTERNAL_WALLET_KEY_BACKUP = "potcoin-wallet-keys" + FILENAME_NETWORK_SUFFIX;
 
 		/** Filename of the manual wallet backup. */
-		public static final String EXTERNAL_WALLET_BACKUP = "bitcoin-wallet-backup" + FILENAME_NETWORK_SUFFIX;
+		public static final String EXTERNAL_WALLET_BACKUP = "potcoin-wallet-backup" + FILENAME_NETWORK_SUFFIX;
 
 		/** Filename of the block store for storing the chain. */
 		public static final String BLOCKCHAIN_FILENAME = "blockchain" + FILENAME_NETWORK_SUFFIX;
@@ -99,7 +99,7 @@ public final class Constants
 	public static final int MAX_NUM_CONFIRMATIONS = 7;
 
 	/** User-agent to use for network access. */
-	public static final String USER_AGENT = "Bitcoin Wallet";
+	public static final String USER_AGENT = "Potcoin Wallet";
 
 	/** Default currency to use if all default mechanisms fail. */
 	public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
@@ -108,7 +108,7 @@ public final class Constants
 	public static final String DONATION_ADDRESS = "18CK5k1gajRKKSC7yVSTXT9LUzbheh1XY4";
 
 	/** Recipient e-mail address for reports. */
-	public static final String REPORT_EMAIL = "bitcoin.wallet.developers@gmail.com";
+	public static final String REPORT_EMAIL = "potcoin.wallet.developers@gmail.com";
 
 	/** Subject line for manually reported issues. */
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";

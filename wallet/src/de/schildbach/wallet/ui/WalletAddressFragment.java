@@ -101,9 +101,9 @@ public final class WalletAddressFragment extends Fragment implements NfcAdapter.
 	public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstanceState)
 	{
 		final View view = inflater.inflate(R.layout.wallet_address_fragment, container, false);
-		currentAddressQrView = (ImageView) view.findViewById(R.id.bitcoin_address_qr);
+		currentAddressQrView = (ImageView) view.findViewById(R.id.potcoin_address_qr);
 
-		final CardView currentAddressQrCardView = (CardView) view.findViewById(R.id.bitcoin_address_qr_card);
+		final CardView currentAddressQrCardView = (CardView) view.findViewById(R.id.potcoin_address_qr_card);
 		currentAddressQrCardView.setCardBackgroundColor(Color.WHITE);
 		currentAddressQrCardView.setPreventCornerOverlap(false);
 		currentAddressQrCardView.setOnClickListener(new OnClickListener()

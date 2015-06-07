@@ -109,7 +109,7 @@ public abstract class InputParser
 					error(R.string.input_parser_invalid_paymentrequest, x.getMessage());
 				}
 			}
-			else if (input.startsWith("bitcoin:"))
+			else if (input.startsWith("potcoin:"))
 			{
 				try
 				{
@@ -124,7 +124,7 @@ public abstract class InputParser
 				{
 					log.info("got invalid bitcoin uri: '" + input + "'", x);
 
-					error(R.string.input_parser_invalid_bitcoin_uri, input);
+					error(R.string.input_parser_invalid_potcoin_uri, input);
 				}
 			}
 			else if (PATTERN_BITCOIN_ADDRESS.matcher(input).matches())
